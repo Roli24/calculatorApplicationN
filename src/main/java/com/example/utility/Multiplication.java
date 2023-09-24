@@ -1,4 +1,6 @@
-package com.example.interfaces;
+package com.example.utility;
+
+import com.example.interfaces.ICalculator;
 
 public class Multiplication implements ICalculator {
     @Override

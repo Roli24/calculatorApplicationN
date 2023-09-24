@@ -1,10 +1,10 @@
 package com.example.factory;
 
-import com.example.interfaces.Addition;
-import com.example.interfaces.Division;
+import com.example.utility.Addition;
+import com.example.utility.Division;
 import com.example.interfaces.ICalculator;
-import com.example.interfaces.Multiplication;
-import com.example.interfaces.Subtraction;
+import com.example.utility.Multiplication;
+import com.example.utility.Subtraction;
 
 public class CalculatorFactory {
     public static ICalculator createCalculator(Character operator) {
